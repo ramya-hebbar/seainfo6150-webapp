@@ -1,0 +1,6 @@
+body ul {
+  list-style-type: none;
+  background-color: rgb(153, 153, 153);
+  border: 1px dotted black;
+  margin : 20px; /*outer border */
+}
