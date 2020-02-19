@@ -1,9 +1,25 @@
 .container {
     background: #eee;
     border: 1px solid #c00;
+    border-radius: 7px;
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
+    background-image: linear-gradient(to right, #cd4a53 ,  #eee 10%);
+    box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
+}
+
+.internal {
+    display: inline-block;
+}
+
+#image {
+    width: fit-content;
+}
+
+#content {
+     margin-left: 14%;
+     
 }
 
 .title {
