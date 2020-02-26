@@ -15,8 +15,10 @@
 
     display: flex;   
     width: 100%; 
-    flex-flow: column;
+    height: 100%;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 #content {
