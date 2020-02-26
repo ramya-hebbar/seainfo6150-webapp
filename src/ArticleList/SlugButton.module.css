@@ -2,10 +2,8 @@
     background: #c00;
     color: #fff;
     font-size: 1rem;
-    position: absolute;
     bottom: 10px;
-    right: 10px;
     border-radius: 0.65rem;
     height: 2.5rem;
-    width: 10rem;
+    width: 100%;
 }

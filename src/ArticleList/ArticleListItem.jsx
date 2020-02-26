@@ -6,19 +6,17 @@ import ArticleImage from "./ArticleImage";
 const ArticleListItem = props => {
   return (
     <div className={styles.container}>
-		<div id={styles.image} className={styles.internal}>
+		<div id={styles.image}>
 			<ArticleImage url={props.article.image._url} title={props.article.title} />
-		</div>
-		
-		<div id={styles.content} className={styles.internal}>
+		</div>		
+		<div id={styles.content}>
 			<h3 className={styles.title}>{props.article.title}</h3>
 			<p>{props.article.shortText}</p>
 			<time className={styles.pubDate} dateTime={props.article.pubYear}>{props.article.pubDate}</time>
-			<p>
+			<p id={styles.button}>
 				<SlugButton slug={props.article.slug} buttonText={props.article.author} />
 			</p>
 	  	</div>
-      
     </div>
   );
 };

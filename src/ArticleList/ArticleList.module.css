@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 1fr;
+  }
+
 .container {
     list-style: none;
     padding: 20px;
@@ -5,4 +10,13 @@
     background: #999;
     border: 1px dashed #666;
     border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;   
+    gap: 20px;
+}
+
+.list {
+    height: 100%;
+    width: 100%;
 }

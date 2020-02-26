@@ -1,12 +1,13 @@
 .articleImage {
-    width: 7.5rem;
-    height: 4.5rem;
+    width: 8.5rem;
+    height: 5.5rem;
 
     border: solid #d10010;
     border-width: 0.5rem;
     border-radius: 50%;
 
-    position: absolute;
-    top: 15px;
+    position: relative;
+
+    box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
 }
 

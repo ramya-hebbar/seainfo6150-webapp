@@ -5,13 +5,15 @@ import styles from "./ArticleList.module.css";
 
 const ArticleList = props => {
   return (
-    <ul className={styles.container}>
-      {props.articles.map(article => (
-        <li key={article.slug}>
-          <ArticleListItem article={article} />
-        </li>
-      ))}
-    </ul>
+    <section>
+      <ul className={styles.container}>
+        {props.articles.map(article => (
+          <li className={styles.list} key={article.slug}>
+            <ArticleListItem article={article} />
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 };
 
