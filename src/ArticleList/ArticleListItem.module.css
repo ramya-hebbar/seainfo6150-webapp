@@ -5,12 +5,10 @@
 
 .container {
     background: #eee;
-    border: 1px solid #c00;
     border-radius: 15px;
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
-    background-image: linear-gradient(to right, #cd4a53 ,  #eee 15%);
     box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
 
     display: flex;   
@@ -19,6 +17,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: space-between;
 }
 
 #content {
@@ -36,6 +35,115 @@
     font-size: smaller;
 }
 
-#button {
-    margin-top: 3rem;
+
+@media (min-width: 350px) {
+    .container {
+        border: 1px solid #B04F7A;
+        background-image: linear-gradient(to right, #DC83AA,  #eee 15%);
+    }
+
+    .title {
+        color: #B04F7A;
+        font-size: 1rem;
+    }
+
+    #content {
+        margin-top: 0.5rem;
+    }
+
+    .shortText {
+        font-size: 80%;
+    }
+
+    #button {
+        margin-top: 1.5rem;
+    }
+
+    .pubDate {
+        font-size: x-small;
+    }
+}
+
+@media (min-width: 550px) {
+    .container {
+        border: 1px solid #2D3F87;
+        background-image: linear-gradient(to right, #5D6FB4,  #eee 15%);
+    }
+
+    .title {
+        color: #2D3F87;
+        font-size: 1.5rem;
+    }
+
+    #content {
+        margin-top: 1rem;
+    }
+
+    .shortText {
+        font-size: 90%;
+    }
+
+    #button {
+        margin-top: 2rem;
+    }
+
+    .pubDate {
+        font-size: x-small;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        border: 1px solid #3C5D3A;
+        background-image: linear-gradient(to right, #79A476,  #eee 15%);
+    }
+
+    .title {
+        color: #3C5D3A;
+        font-size: 1.75rem;
+    }
+
+    #content {
+        margin-top: 2rem;
+    }
+
+    .shortText {
+        font-size: 95%;
+    }
+
+    #button {
+        margin-top: 2.5rem;
+    }
+
+    .pubDate {
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 950px) {
+    .container {
+        border: 1px solid #c00;
+        background-image: linear-gradient(to right, #cd4a53 ,  #eee 15%);
+    }
+
+    .title {
+        color: #c00;
+        font-size: 2rem;
+    }
+
+    #content {
+        margin-top: 3rem;
+    }
+
+    .shortText {
+        font-size: 100%;
+    }
+
+    #button {
+        margin-top: 3rem;
+    }
+
+    .pubDate {
+        font-size: smaller;
+    }
 }

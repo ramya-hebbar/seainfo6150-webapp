@@ -7,8 +7,8 @@
     list-style: none;
     padding: 20px;
     margin: 20px;
-    background: #999;
-    border: 1px dashed #666;
+    /* background: #999; */
+    border: 1px dashed black;
     border-radius: 10px;
 
     display: grid;
@@ -19,4 +19,36 @@
 .list {
     height: 100%;
     width: 100%;
+}
+
+@media (min-width: 350px) {
+    .container {
+        background: #F3A1C5;
+        grid-template-columns: repeat(2, 1fr) ;   
+        gap: 20px;
+    }
+}
+
+@media (min-width: 550px) {
+    .container {
+        background: #8392D0;
+        grid-template-columns: repeat(2, 1fr) ;   
+        gap: 20px;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        background: #81BA7C;
+        grid-template-columns: repeat(3, 1fr) ;   
+        gap: 20px;
+    }
+}
+
+@media (min-width: 950px) {
+    .container {
+        background:#999;
+        grid-template-columns: repeat(4, 1fr) ;   
+        gap: 20px;
+    }
 }

@@ -1,13 +1,45 @@
 .articleImage {
-    width: 8.5rem;
-    height: 5.5rem;
-
-    border: solid #d10010;
-    border-width: 0.5rem;
-    border-radius: 50%;
-
     position: relative;
 
     box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
 }
 
+@media (min-width: 350px) {
+    .articleImage {
+        border: solid #B04F7A;
+        border-width: 0.2rem;
+        border-radius: 50%;
+        width: 5.5rem;
+        height: 3.5rem;
+    }
+}
+
+@media (min-width: 550px) {
+    .articleImage {
+        border: solid #2D3F87;
+        border-width: 0.3rem;
+        border-radius: 50%;
+        width: 6.5rem;
+        height: 4.5rem;
+    }
+}
+
+@media (min-width: 750px) {
+    .articleImage {
+        border: solid #3C5D3A;
+        border-width: 0.4rem;
+        border-radius: 50%;
+        width: 7.5rem;
+        height: 5.5rem;
+    }
+}
+
+@media (min-width: 950px) {
+    .articleImage {
+        border: solid #d10010;
+        border-width: 0.5rem;
+        border-radius: 50%;
+        width: 8.5rem;
+        height: 5.5rem;
+    }
+}

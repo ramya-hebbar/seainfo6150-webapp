@@ -1,9 +1,32 @@
 .slugButton {
-    background: #c00;
     color: #fff;
     font-size: 1rem;
     bottom: 10px;
     border-radius: 0.65rem;
     height: 2.5rem;
     width: 100%;
+}
+
+@media (min-width:350px) {
+    .slugButton {
+        background: #B04F7A;
+    }
+}
+
+@media (min-width:550px) {
+    .slugButton {
+        background: #2D3F87;
+    }
+}
+
+@media (min-width:750px) {
+    .slugButton {
+        background: #3C5D3A;
+    }
+}
+
+@media (min-width:950px) {
+    .slugButton {
+        background: #c00;
+    }
 }
